@@ -1,31 +1,39 @@
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: bisque;
+
 }
 
-.popup {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  width: 300px;
-  text-align: center;
+.card {
+  width: 50rem;
+  border: 1px solid #4d4b4b;
+  border-radius: 5%;
+  margin: 20px;
+  overflow: hidden;
 }
 
-button {
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+
+.card-text {
+  margin-top: 28%;
+  margin-right: 50%;
+  margin-left: 10%;
+  color: black;
+  text-rendering: inherit;
 }
 
-button:hover {
-  background-color: #45a049;
+.btn {
+  font-size: 1.2rem;
+  padding: 10px 16px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+  margin-left: 10%;
+  margin-top: 5%;
 }
+
+
+.btn:hover {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
